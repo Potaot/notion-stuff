@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <script src="https://raw.githubusercontent.com/lugolabs/circles/master/circles.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+    <body>
+        <div class="circle" id="circles-1"></div>
+        <script>
+          var myCircle = Circles.create({
+  id:                  'circles-1',
+  radius:              60,
+  value:               43,
+  maxValue:            100,
+  width:               10,
+  text:                function(value){return value + '%';},
+  colors:              ['#D3B6C6', '#4B253A'],
+  duration:            400,
+  wrpClass:            'circles-wrp',
+  textClass:           'circles-text',
+  valueStrokeClass:    'circles-valueStroke',
+  maxValueStrokeClass: 'circles-maxValueStroke',
+  styleWrapper:        true,
+  styleText:           true
+});
+      </script>
+    </body>
+</html>
