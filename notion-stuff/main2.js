@@ -26,5 +26,5 @@ window.onload = function onLoad() {
     bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
     bar.text.style.fontSize = '2rem';
 
-    bar.animate(4/8);
+    bar.animate(7/8);
 };
