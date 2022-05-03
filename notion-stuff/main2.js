@@ -9,7 +9,7 @@ window.onload = function onLoad() {
             autoStyleContainer: false
         },
         from: { color: '#f00', width: 4 },
-        to: { color: '#09f', width: 4 },
+        to: { color: '#00b010', width: 4 },
         step: function (state, circle) {
             circle.path.setAttribute('stroke', state.color);
             circle.path.setAttribute('stroke-width', state.width);
